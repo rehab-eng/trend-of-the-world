@@ -3,12 +3,10 @@ import {
   ArrowUpRight,
   Gift,
   Globe2,
-  Menu,
   Moon,
   Sparkles,
   Sun,
   Truck,
-  X,
 } from 'lucide-react';
 
 const LANGUAGE_OPTIONS = [
@@ -1037,6 +1035,7 @@ function App() {
         )}
       </header>
 
+      <main id="main">
       <section className="overflow-hidden" id="hero">
         <div className="relative w-full">
           <img
@@ -1055,6 +1054,7 @@ function App() {
             srcSet="/images/hero-text-320.webp 320w, /images/hero-text-480.webp 480w, /images/hero-text-640.webp 640w"
             sizes="(min-width: 768px) 52vw, 78vw"
             alt={t.brand}
+            decoding="async"
             className="hero-text-fly absolute left-1/2 top-1/2 w-[78%] max-w-md drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] md:w-[52%] md:max-w-2xl"
           />
         </div>
@@ -1155,7 +1155,7 @@ function App() {
                           <img
                             src={product.image}
                             srcSet={product.srcSet}
-                            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 90vw"
+                            sizes="(min-width: 1280px) 240px, (min-width: 1024px) 22vw, (min-width: 640px) 45vw, 90vw"
                             alt={product.title}
                             loading="lazy"
                             decoding="async"
@@ -1257,6 +1257,7 @@ function App() {
           </div>
         </div>
       </section>
+      </main>
 
       <footer id="contact" className="sunset-footer border-t border-amber-300/40 py-12 text-sm text-slate-700 dark:border-amber-200/40 dark:text-slate-200">
         <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 md:flex-row md:items-center md:justify-between">

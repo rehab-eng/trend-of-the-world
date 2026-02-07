@@ -1,5 +1,3 @@
-import typography from '@tailwindcss/typography';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: 'class',
@@ -10,8 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'IBM Plex Sans Arabic', 'system-ui', 'sans-serif'],
-        arabic: ['IBM Plex Sans Arabic', 'Inter', 'system-ui', 'sans-serif'],
+        sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Noto Sans Arabic', 'Tahoma', 'sans-serif'],
+        arabic: ['Noto Sans Arabic', 'Tahoma', 'Segoe UI', 'system-ui', 'sans-serif'],
       },
       colors: {
         light: {
@@ -35,5 +33,5 @@ export default {
       },
     },
   },
-  plugins: [typography],
+  plugins: [],
 };
