@@ -848,10 +848,30 @@ const copy = {
 };
 
 const productStyles = [
-  { color: '#fbcfe8', glow: 'rgba(251, 207, 232, 0.35)', image: '/images/soap1.webp' },
-  { color: '#f9a8d4', glow: 'rgba(249, 168, 212, 0.35)', image: '/images/soap2.webp' },
-  { color: '#f472b6', glow: 'rgba(244, 114, 182, 0.35)', image: '/images/soap3.webp' },
-  { color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)', image: '/images/soap4.webp' },
+  {
+    color: '#fbcfe8',
+    glow: 'rgba(251, 207, 232, 0.35)',
+    image: '/images/soap1-480.webp',
+    srcSet: '/images/soap1-240.webp 240w, /images/soap1-360.webp 360w, /images/soap1-480.webp 480w, /images/soap1-640.webp 640w',
+  },
+  {
+    color: '#f9a8d4',
+    glow: 'rgba(249, 168, 212, 0.35)',
+    image: '/images/soap2-480.webp',
+    srcSet: '/images/soap2-240.webp 240w, /images/soap2-360.webp 360w, /images/soap2-480.webp 480w, /images/soap2-640.webp 640w',
+  },
+  {
+    color: '#f472b6',
+    glow: 'rgba(244, 114, 182, 0.35)',
+    image: '/images/soap3-480.webp',
+    srcSet: '/images/soap3-240.webp 240w, /images/soap3-360.webp 360w, /images/soap3-480.webp 480w, /images/soap3-640.webp 640w',
+  },
+  {
+    color: '#ec4899',
+    glow: 'rgba(236, 72, 153, 0.35)',
+    image: '/images/soap4-480.webp',
+    srcSet: '/images/soap4-240.webp 240w, /images/soap4-360.webp 360w, /images/soap4-480.webp 480w, /images/soap4-640.webp 640w',
+  },
 ];
 
 const highlightIcons = [Sparkles, Globe2, Gift];
@@ -1020,7 +1040,9 @@ function App() {
       <section className="overflow-hidden" id="hero">
         <div className="relative w-full">
           <img
-            src="/images/hero-sea.webp"
+            src="/images/hero-sea-1280.webp"
+            srcSet="/images/hero-sea-640.webp 640w, /images/hero-sea-960.webp 960w, /images/hero-sea-1280.webp 1280w, /images/hero-sea-1600.webp 1600w"
+            sizes="100vw"
             alt=""
             aria-hidden="true"
             fetchpriority="high"
@@ -1029,7 +1051,9 @@ function App() {
             className="h-[60vh] w-full object-cover md:h-[75vh]"
           />
           <img
-            src="/images/hero-text.webp"
+            src="/images/hero-text-640.webp"
+            srcSet="/images/hero-text-320.webp 320w, /images/hero-text-480.webp 480w, /images/hero-text-640.webp 640w"
+            sizes="(min-width: 768px) 52vw, 78vw"
             alt={t.brand}
             className="hero-text-fly absolute left-1/2 top-1/2 w-[78%] max-w-md drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] md:w-[52%] md:max-w-2xl"
           />
@@ -1128,13 +1152,15 @@ function App() {
                     className="relative rounded-[24px] border border-amber-300/60 bg-pink-900/30 shadow-xl"
                     style={{ boxShadow: isDark ? `0 0 45px ${product.glow}` : undefined }}
                   >
-                    <img
-                      src={product.image}
-                      alt={product.title}
-                      loading="lazy"
-                      decoding="async"
-                      className="h-52 w-full object-contain p-4 transition duration-700 group-hover:scale-105 sm:h-56 md:h-60"
-                    />
+                          <img
+                            src={product.image}
+                            srcSet={product.srcSet}
+                            sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 90vw"
+                            alt={product.title}
+                            loading="lazy"
+                            decoding="async"
+                            className="h-52 w-full object-contain p-4 transition duration-700 group-hover:scale-105 sm:h-56 md:h-60"
+                          />
                   </div>
                 </div>
                 <div className={`mt-6 ${isRTL ? 'text-right' : 'text-left'}`}>
@@ -1267,7 +1293,7 @@ function App() {
             className="flex h-11 w-11 items-center justify-center rounded-full border border-amber-400 bg-pink-100 text-black shadow-xl ring-1 ring-amber-300/60 backdrop-blur-xl transition active:scale-95 dark:border-amber-300 dark:bg-pink-200 dark:text-black"
             aria-label={theme === 'dark' ? t.ui.light : t.ui.dark}
           >
-            {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+            {theme === 'dark' ? <Sun size={20} className="text-black" /> : <Moon size={20} className="text-black" />}
           </button>
 
           <div className="relative">
