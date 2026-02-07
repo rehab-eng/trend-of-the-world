@@ -9,7 +9,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Noto Sans Arabic', 'Tahoma', 'sans-serif'],
-        arabic: ['Noto Sans Arabic', 'Tahoma', 'Segoe UI', 'system-ui', 'sans-serif'],
+        arabic: ['Cairo', 'Noto Sans Arabic', 'Tahoma', 'Segoe UI', 'system-ui', 'sans-serif'],
       },
       colors: {
         light: {

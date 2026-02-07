@@ -27,7 +27,16 @@ body {
 }
 
 html[dir='rtl'] body {
-  font-family: 'Noto Sans Arabic', Tahoma, 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Cairo', 'Noto Sans Arabic', Tahoma, 'Segoe UI', system-ui, sans-serif;
+  letter-spacing: normal;
+}
+
+html[lang='ar'] .uppercase {
+  text-transform: none;
+}
+
+html[lang='ar'] [class*="tracking-"] {
+  letter-spacing: 0 !important;
 }
 
 #root {
@@ -77,7 +86,7 @@ html.dark {
 }
 
 .dark .brand-title {
-  color: #ffffff;
+  color: #db2777;
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.35);
 }
 
@@ -149,7 +158,7 @@ html.dark {
 .dark .soap-nav__item {
   background: rgba(244, 114, 182, 0.12);
   border-color: rgba(212, 175, 55, 0.45);
-  color: #fde2f3;
+  color: #db2777;
 }
 
 .dark .soap-nav__item:hover {
@@ -276,6 +285,14 @@ html.dark {
 .sunset-hamburger .hamburger-icon::after,
 .sunset-hamburger .hamburger-icon span {
   background: linear-gradient(90deg, #0f172a, #db2777);
+}
+
+.dark .hamburger-icon::before,
+.dark .hamburger-icon::after,
+.dark .hamburger-icon span {
+  background: #db2777;
+  box-shadow: 0 0 6px rgba(219, 39, 119, 0.45);
+  opacity: 1;
 }
 
 .sunset-hamburger .hamburger-icon.is-open::before,

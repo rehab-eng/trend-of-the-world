@@ -979,7 +979,7 @@ function App() {
               <Globe2 size={20} />
             </div>
             <div className={isRTL ? 'text-right' : 'text-left'}>
-              <p className="hidden text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-slate-400 sm:block">{t.tagline}</p>
+              <p className="hidden text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-pink-600 sm:block">{t.tagline}</p>
               <h1 className="brand-title text-sm font-medium sm:text-lg">{t.brand}</h1>
             </div>
           </div>
@@ -995,7 +995,7 @@ function App() {
           <div className="flex items-center gap-3">
             <a
               href="#contact"
-              className="hidden rounded-full border border-amber-300/60 bg-pink-50/90 px-4 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 dark:border-amber-200/40 dark:bg-dark-card dark:text-slate-200 md:inline-flex"
+              className="hidden rounded-full border border-amber-300/60 bg-pink-50/90 px-4 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 dark:border-amber-200/40 dark:bg-dark-card dark:text-pink-300 md:inline-flex"
             >
               {t.hero.cta}
             </a>
@@ -1014,17 +1014,17 @@ function App() {
         {menuOpen && (
           <div className="sunset-panel rounded-b-3xl border-t border-amber-300/40 bg-pink-50/95 px-5 py-4 shadow-lg backdrop-blur-2xl dark:border-amber-200/40 dark:bg-dark-card/95 md:hidden">
             <div className={`grid gap-3 text-sm font-medium ${isRTL ? 'text-right' : 'text-left'}`}>
-              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-slate-100" href="#products" onClick={() => setMenuOpen(false)}>
+              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-pink-300" href="#products" onClick={() => setMenuOpen(false)}>
                 <span>{t.nav.products}</span>
-                <span className="text-pink-600 dark:text-pink-200">→</span>
+                <span className="text-pink-600 dark:text-pink-300">→</span>
               </a>
-              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-slate-100" href="#about" onClick={() => setMenuOpen(false)}>
+              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-pink-300" href="#about" onClick={() => setMenuOpen(false)}>
                 <span>{t.nav.about}</span>
-                <span className="text-pink-600 dark:text-pink-200">→</span>
+                <span className="text-pink-600 dark:text-pink-300">→</span>
               </a>
-              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-slate-100" href="#features" onClick={() => setMenuOpen(false)}>
+              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-pink-300" href="#features" onClick={() => setMenuOpen(false)}>
                 <span>{t.nav.features}</span>
-                <span className="text-pink-600 dark:text-pink-200">→</span>
+                <span className="text-pink-600 dark:text-pink-300">→</span>
               </a>
               <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-gradient-to-r from-pink-600 to-pink-400 px-4 py-3 text-white shadow-sm transition hover:-translate-y-0.5" href="#contact" onClick={() => setMenuOpen(false)}>
                 <span>{t.hero.cta}</span>
