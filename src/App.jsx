@@ -973,18 +973,18 @@ function App() {
   return (
     <div className="sunset-page flow-text min-h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
       <header className="sunset-bar relative sticky top-0 z-40 overflow-hidden border-b border-amber-300/40 bg-pink-50/90 backdrop-blur-xl dark:border-amber-200/40 dark:bg-black/55">
-        <div className={`relative z-10 mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4 ${isRTL ? 'md:flex-row-reverse' : ''}`}>
-          <div className="flex items-center gap-3 sm:gap-4">
+        <div className={`relative z-10 mx-auto flex max-w-6xl items-center px-4 py-3 sm:px-6 sm:py-4 ${isRTL ? 'justify-end gap-4 md:justify-between md:flex-row-reverse' : 'justify-between'}`}>
+          <div className={`flex items-center gap-3 sm:gap-4 ${isRTL ? 'flex-row-reverse' : ''}`}>
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-primary to-brand-secondary text-white shadow-soft">
               <Globe2 size={20} />
             </div>
             <div className={isRTL ? 'text-right' : 'text-left'}>
               <p className="hidden text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-slate-400 sm:block">{t.tagline}</p>
-              <h1 className="text-sm font-semibold text-slate-900 dark:text-white sm:text-lg">{t.brand}</h1>
+              <h1 className="brand-title text-sm font-medium sm:text-lg">{t.brand}</h1>
             </div>
           </div>
 
-          <nav className={`soap-nav hidden items-center gap-3 text-xs font-semibold md:flex ${isRTL ? 'md:flex-row-reverse' : ''}`}>
+          <nav className={`soap-nav hidden items-center gap-3 text-xs font-medium md:flex ${isRTL ? 'md:flex-row-reverse' : ''}`}>
             <a className="soap-nav__item" href="#products">{t.nav.products}</a>
             <span className="soap-nav__dot" aria-hidden="true" />
             <a className="soap-nav__item" href="#about">{t.nav.about}</a>
@@ -1013,7 +1013,7 @@ function App() {
 
         {menuOpen && (
           <div className="sunset-panel rounded-b-3xl border-t border-amber-300/40 bg-pink-50/95 px-5 py-4 shadow-lg backdrop-blur-2xl dark:border-amber-200/40 dark:bg-dark-card/95 md:hidden">
-            <div className={`grid gap-3 text-sm font-semibold ${isRTL ? 'text-right' : 'text-left'}`}>
+            <div className={`grid gap-3 text-sm font-medium ${isRTL ? 'text-right' : 'text-left'}`}>
               <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-pink-50/90 px-4 py-3 text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-200 dark:border-amber-200/40 dark:bg-pink-500/5 dark:text-slate-100" href="#products" onClick={() => setMenuOpen(false)}>
                 <span>{t.nav.products}</span>
                 <span className="text-pink-600 dark:text-pink-200">→</span>
@@ -1026,7 +1026,7 @@ function App() {
                 <span>{t.nav.features}</span>
                 <span className="text-pink-600 dark:text-pink-200">→</span>
               </a>
-              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-gradient-to-r from-pink-600 to-pink-400 px-4 py-3 text-white shadow-sm transition hover:-translate-y-0.5" href="#contact">
+              <a className="flex items-center justify-between rounded-xl border border-amber-100/70 bg-gradient-to-r from-pink-600 to-pink-400 px-4 py-3 text-white shadow-sm transition hover:-translate-y-0.5" href="#contact" onClick={() => setMenuOpen(false)}>
                 <span>{t.hero.cta}</span>
                 <span>→</span>
               </a>
@@ -1057,19 +1057,20 @@ function App() {
             decoding="async"
             className="hero-text-fly absolute left-1/2 top-1/2 w-[78%] max-w-md drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] md:w-[52%] md:max-w-2xl"
           />
+          <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-amber-200 via-amber-500 to-amber-200" />
         </div>
 
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-6 pt-6 pb-12 text-center md:pt-10 md:pb-16">
+        <div className={`mx-auto flex max-w-6xl flex-col justify-center px-6 pt-6 pb-12 md:pt-10 md:pb-16 ${isRTL ? 'items-end text-right' : 'items-center text-center'}`}>
           <div className="max-w-3xl">
             <p className="mb-4 text-[11px] uppercase tracking-[0.5em]">{t.hero.eyebrow}</p>
-            <h2 className="text-3xl font-semibold leading-tight sm:text-4xl md:text-6xl">
+            <h2 className="text-3xl font-medium leading-tight sm:text-4xl md:text-6xl">
               {t.hero.title[0]}<br />{t.hero.title[1]}
             </h2>
             <p className="mt-6 text-base md:text-lg">{t.hero.subtitle}</p>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+            <div className={`mt-8 flex flex-wrap items-center gap-4 ${isRTL ? 'justify-end' : 'justify-center'}`}>
               <a
                 href="#contact"
-                className="group inline-flex items-center gap-2 rounded-full bg-slate-900 px-8 py-3 text-sm font-semibold text-white shadow-xl shadow-black/20 transition hover:-translate-y-1 dark:bg-pink-200 dark:text-black"
+                className="group inline-flex items-center gap-2 rounded-full border border-amber-400/80 bg-slate-900 px-8 py-3 text-sm font-semibold text-white shadow-xl shadow-black/20 transition hover:-translate-y-1 dark:border-amber-300 dark:bg-pink-200 dark:text-black"
               >
                 {t.hero.cta}
                 <ArrowUpRight className="transition group-hover:translate-x-0.5" size={16} />
@@ -1087,7 +1088,7 @@ function App() {
               className="royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl md:col-span-7"
             >
               <p className="text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-slate-400">{t.nav.about}</p>
-              <h3 className="mt-4 text-3xl font-semibold text-slate-900 dark:text-white md:text-4xl">{t.about.title}</h3>
+              <h3 className="mt-4 text-3xl font-medium text-slate-900 dark:text-white md:text-4xl">{t.about.title}</h3>
               <p className="mt-5 text-base text-slate-600 dark:text-slate-300">{t.about.body}</p>
             </div>
 
@@ -1131,9 +1132,9 @@ function App() {
       </section>
       <section className="content-visibility py-24" id="products">
         <div className="mx-auto max-w-6xl px-6">
-          <div className={`mb-12 ${isRTL ? 'text-right' : 'text-left'} text-center md:text-left`}>
+          <div className={`mb-12 ${isRTL ? 'text-right' : 'text-center md:text-left'}`}>
             <p className="text-[11px] uppercase tracking-[0.45em] text-pink-700 dark:text-pink-200">Collection</p>
-            <h3 className="text-ink-wave mt-3 text-3xl font-semibold md:text-4xl">{t.products.title}</h3>
+            <h3 className="text-ink-wave mt-3 text-3xl font-medium md:text-4xl">{t.products.title}</h3>
             <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{t.products.subtitle}</p>
           </div>
 
@@ -1165,7 +1166,7 @@ function App() {
                 </div>
                 <div className={`mt-6 ${isRTL ? 'text-right' : 'text-left'}`}>
                   <div className="flex items-center justify-between">
-                    <h4 className="text-ink-wave text-xl font-semibold">{product.title}</h4>
+                    <h4 className="text-ink-wave text-xl font-medium">{product.title}</h4>
                     <span className="text-xs font-semibold text-pink-700 dark:text-pink-200">{lang === 'ar' ? 'مزاج' : 'Mood'}</span>
                   </div>
                   <p className="mt-2 text-sm text-slate-900 dark:text-slate-200">{product.desc}</p>
@@ -1181,9 +1182,9 @@ function App() {
 
       <section className="content-visibility py-24" id="features">
         <div className="mx-auto max-w-6xl px-6">
-          <div className={`mb-12 ${isRTL ? 'text-right' : 'text-left'} text-center md:text-left`}>
+          <div className={`mb-12 ${isRTL ? 'text-right' : 'text-center md:text-left'}`}>
             <p className="text-[11px] uppercase tracking-[0.45em] text-pink-700 dark:text-pink-200">Features</p>
-            <h3 className="text-ink-wave mt-3 text-3xl font-semibold md:text-4xl">{t.features.title}</h3>
+            <h3 className={`mt-3 text-3xl font-medium md:text-4xl ${isDark ? 'text-ink-wave' : 'text-pink-800'}`}>{t.features.title}</h3>
             <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{t.features.subtitle}</p>
           </div>
 
@@ -1199,7 +1200,7 @@ function App() {
                     </div>
                     <div>
                       <p className="text-[11px] uppercase tracking-[0.4em] text-pink-700 dark:text-pink-200">Feature 01</p>
-                      <h4 className="text-ink-wave mt-2 text-2xl font-semibold">{featurePrimary.title}</h4>
+                      <h4 className="text-ink-wave mt-2 text-2xl font-medium">{featurePrimary.title}</h4>
                     </div>
                   </div>
                   <span className="royal-pill hidden rounded-full px-3 py-1 text-xs font-semibold sm:inline-flex">
@@ -1231,7 +1232,7 @@ function App() {
                       <featureSecondary.Icon size={20} />
                     </div>
                     <div>
-                      <h4 className="text-ink-wave text-lg font-semibold">{featureSecondary.title}</h4>
+                      <h4 className="text-ink-wave text-lg font-medium">{featureSecondary.title}</h4>
                       <p className="mt-2 text-sm text-slate-900 dark:text-slate-200">{featureSecondary.text}</p>
                     </div>
                   </div>
@@ -1247,7 +1248,7 @@ function App() {
                       <featureTertiary.Icon size={20} />
                     </div>
                     <div>
-                      <h4 className="text-ink-wave text-lg font-semibold">{featureTertiary.title}</h4>
+                      <h4 className="text-ink-wave text-lg font-medium">{featureTertiary.title}</h4>
                       <p className="mt-2 text-sm text-slate-900 dark:text-slate-200">{featureTertiary.text}</p>
                     </div>
                   </div>
@@ -1263,7 +1264,7 @@ function App() {
         <div className="mx-auto flex max-w-6xl flex-col gap-10 px-6 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-[11px] uppercase tracking-[0.45em] text-slate-400">Trend Of The World</p>
-            <p className="mt-2 text-lg font-semibold text-slate-900 dark:text-white">{t.brand}</p>
+            <p className="mt-2 text-lg font-medium text-slate-900 dark:text-white">{t.brand}</p>
             <p className="mt-2">{lang === 'ar' ? 'الهاتف' : 'Phone'}: {t.footer.phone}</p>
           </div>
           <div className="flex flex-col gap-3">
@@ -1311,7 +1312,7 @@ function App() {
                       className={`flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm transition ${lang === item.code ? 'bg-pink-200 text-pink-900 dark:bg-pink-700/30 dark:text-white' : 'text-slate-900 hover:bg-pink-100/70 dark:text-pink-100 dark:hover:bg-pink-800/30'}`}
                     >
                       <span>{item.label}</span>
-                      <span className="text-xs text-pink-700 dark:text-pink-200">{item.short}</span>
+                      <span className="lang-short">{item.short}</span>
                     </button>
                   ))}
                 </div>
@@ -1319,11 +1320,11 @@ function App() {
             )}
             <button
               onClick={() => setLangOpen((prev) => !prev)}
-              className="flex items-center gap-2 rounded-full border border-amber-600 bg-pink-200 px-4 py-2 text-xs font-semibold text-pink-900 shadow-xl ring-1 ring-pink-400/40 backdrop-blur-xl transition active:scale-95 dark:border-amber-300 dark:bg-pink-900/90 dark:text-pink-100"
+              className="flex items-center gap-2 rounded-full border border-amber-600 bg-pink-200 px-4 py-2 text-xs font-semibold text-slate-900 shadow-xl ring-1 ring-pink-400/40 backdrop-blur-xl transition active:scale-95 dark:border-amber-300 dark:bg-pink-900/90 dark:text-pink-100"
               aria-label={t.ui.language}
             >
-              <Globe2 size={18} className="text-pink-900 dark:text-pink-100" />
-              <span>{currentLanguage.short}</span>
+              <Globe2 size={18} className="text-slate-900 dark:text-pink-100" />
+              <span className="lang-short">{currentLanguage.short}</span>
             </button>
           </div>
         </div>
