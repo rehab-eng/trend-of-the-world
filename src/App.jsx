@@ -1060,14 +1060,14 @@ function App() {
           <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-amber-200 via-amber-500 to-amber-200" />
         </div>
 
-        <div className={`mx-auto flex max-w-6xl flex-col justify-center px-6 pt-6 pb-12 md:pt-10 md:pb-16 ${isRTL ? 'items-end text-right' : 'items-center text-center'}`}>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-6 pt-6 pb-12 text-center md:pt-10 md:pb-16">
           <div className="max-w-3xl">
             <p className="mb-4 text-[11px] uppercase tracking-[0.5em]">{t.hero.eyebrow}</p>
             <h2 className="text-3xl font-medium leading-tight sm:text-4xl md:text-6xl">
               {t.hero.title[0]}<br />{t.hero.title[1]}
             </h2>
             <p className="mt-6 text-base md:text-lg">{t.hero.subtitle}</p>
-            <div className={`mt-8 flex flex-wrap items-center gap-4 ${isRTL ? 'justify-end' : 'justify-center'}`}>
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <a
                 href="#contact"
                 className="group inline-flex items-center gap-2 rounded-full border border-amber-400/80 bg-slate-900 px-8 py-3 text-sm font-semibold text-white shadow-xl shadow-black/20 transition hover:-translate-y-1 dark:border-amber-300 dark:bg-pink-200 dark:text-black"
