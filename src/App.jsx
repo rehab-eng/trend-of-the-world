@@ -33,7 +33,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Premium Mood Soaps',
-      title: ['Pick Your Mood.', 'Pick Your Soap.'],
+      title: ['Pick Your Mood', 'Pick Your Soap'],
       subtitle: 'Premium mood soaps that mix luxury with humor, crafted to match how you feel today.',
       cta: 'Order Now',
       note: 'Limited drops. Small batches. Big moods.',
@@ -115,7 +115,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'صابون فاخر للمزاج',
-      title: ['اختر مزاجك.', 'اختر صابونك.'],
+      title: ['اختر مزاجك', 'اختر صابونك'],
       subtitle: 'مجموعة صابون فاخرة بروح مرحة صممت لتناسب شعورك اليوم.',
       cta: 'اطلب الآن',
       note: 'دفعات محدودة. كميات صغيرة. مزاج كبير.',
@@ -197,7 +197,7 @@ const copy = {
     },
     hero: {
       eyebrow: "Savons d'humeur premium",
-      title: ['Choisissez votre humeur.', 'Choisissez votre savon.'],
+      title: ['Choisissez votre humeur', 'Choisissez votre savon'],
       subtitle: "Des savons d'humeur premium qui mêlent luxe et humour, pensés pour accompagner ce que vous ressentez aujourd'hui.",
       cta: 'Commander maintenant',
       note: 'Séries limitées. Petits lots. Grandes humeurs.',
@@ -279,7 +279,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Jabones de humor premium',
-      title: ['Elige tu humor.', 'Elige tu jabón.'],
+      title: ['Elige tu humor', 'Elige tu jabón'],
       subtitle: 'Jabones de humor premium que mezclan lujo y humor, creados para acompañar cómo te sientes hoy.',
       cta: 'Pedir ahora',
       note: 'Ediciones limitadas. Lotes pequeños. Grandes humores.',
@@ -361,7 +361,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Premium Mood-Seifen',
-      title: ['Wähle deine Stimmung.', 'Wähle deine Seife.'],
+      title: ['Wähle deine Stimmung', 'Wähle deine Seife'],
       subtitle: 'Premium Mood-Seifen, die Luxus und Humor verbinden - gemacht für dein Gefühl von heute.',
       cta: 'Jetzt bestellen',
       note: 'Limitierte Drops. Kleine Chargen. Große Stimmung.',
@@ -443,7 +443,7 @@ const copy = {
     },
     hero: {
       eyebrow: "Saponi d'umore premium",
-      title: ['Scegli il tuo umore.', 'Scegli il tuo sapone.'],
+      title: ['Scegli il tuo umore', 'Scegli il tuo sapone'],
       subtitle: "Saponi d'umore premium che uniscono lusso e ironia, creati per accompagnare come ti senti oggi.",
       cta: 'Ordina ora',
       note: 'Edizioni limitate. Piccoli lotti. Grandi umori.',
@@ -525,7 +525,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Sabonetes de humor premium',
-      title: ['Escolha seu humor.', 'Escolha seu sabonete.'],
+      title: ['Escolha seu humor', 'Escolha seu sabonete'],
       subtitle: 'Sabonetes de humor premium que unem luxo e humor, criados para acompanhar como você se sente hoje.',
       cta: 'Pedir agora',
       note: 'Edições limitadas. Lotes pequenos. Grandes humores.',
@@ -607,7 +607,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Premium mood sabunlar',
-      title: ['Ruh halini seç.', 'Sabununu seç.'],
+      title: ['Ruh halini seç', 'Sabununu seç'],
       subtitle: 'Lüks ve mizahı birleştiren premium mood sabunlar, bugün nasıl hissettiğine göre tasarlandı.',
       cta: 'Şimdi sipariş ver',
       note: 'Sınırlı üretim. Küçük partiler. Büyük ruh hali.',
@@ -689,7 +689,7 @@ const copy = {
     },
     hero: {
       eyebrow: 'Премиальные мыла настроения',
-      title: ['Выбери настроение.', 'Выбери мыло.'],
+      title: ['Выбери настроение', 'Выбери мыло'],
       subtitle: 'Премиальные мыла, сочетающие роскошь и юмор, чтобы отражать твое состояние сегодня.',
       cta: 'Заказать сейчас',
       note: 'Лимитированные серии. Малые партии. Большое настроение.',
@@ -771,7 +771,7 @@ const copy = {
     },
     hero: {
       eyebrow: '高级情绪香皂',
-      title: ['选择你的心情。', '选择你的香皂。'],
+      title: ['选择你的心情', '选择你的香皂'],
       subtitle: '将奢华与幽默融合的高级情绪香皂，为你今天的心情而生。',
       cta: '立即下单',
       note: '限量发售，小批量，大情绪。',
