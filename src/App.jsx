@@ -848,10 +848,10 @@ const copy = {
 };
 
 const productStyles = [
-  { color: '#fbcfe8', glow: 'rgba(251, 207, 232, 0.35)', image: '/images/soap1.jpg' },
-  { color: '#f9a8d4', glow: 'rgba(249, 168, 212, 0.35)', image: '/images/soap2.jpg' },
-  { color: '#f472b6', glow: 'rgba(244, 114, 182, 0.35)', image: '/images/soap3.jpg' },
-  { color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)', image: '/images/soap4.jpg' },
+  { color: '#fbcfe8', glow: 'rgba(251, 207, 232, 0.35)', image: '/images/soap1.webp' },
+  { color: '#f9a8d4', glow: 'rgba(249, 168, 212, 0.35)', image: '/images/soap2.webp' },
+  { color: '#f472b6', glow: 'rgba(244, 114, 182, 0.35)', image: '/images/soap3.webp' },
+  { color: '#ec4899', glow: 'rgba(236, 72, 153, 0.35)', image: '/images/soap4.webp' },
 ];
 
 const highlightIcons = [Sparkles, Globe2, Gift];
@@ -955,17 +955,6 @@ function App() {
   return (
     <div className="sunset-page flow-text min-h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
       <header className="sunset-bar relative sticky top-0 z-40 overflow-hidden border-b border-amber-300/40 bg-pink-50/90 backdrop-blur-xl dark:border-amber-200/40 dark:bg-black/55">
-        <div className="soap-bubbles" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </div>
         <div className={`relative z-10 mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4 ${isRTL ? 'md:flex-row-reverse' : ''}`}>
           <div className="flex items-center gap-3 sm:gap-4">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-brand-primary to-brand-secondary text-white shadow-soft">
@@ -1030,9 +1019,17 @@ function App() {
 
       <section className="overflow-hidden" id="hero">
         <div className="relative w-full">
-          <div className="h-[60vh] w-full bg-[url('/images/hero-sea.jpg')] bg-cover bg-center md:h-[75vh]" />
           <img
-            src="/images/hero-text.png"
+            src="/images/hero-sea.webp"
+            alt=""
+            aria-hidden="true"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+            className="h-[60vh] w-full object-cover md:h-[75vh]"
+          />
+          <img
+            src="/images/hero-text.webp"
             alt={t.brand}
             className="hero-text-fly absolute left-1/2 top-1/2 w-[78%] max-w-md drop-shadow-[0_20px_40px_rgba(0,0,0,0.35)] md:w-[52%] md:max-w-2xl"
           />

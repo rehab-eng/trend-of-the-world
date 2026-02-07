@@ -62,38 +62,6 @@ html.dark {
   animation: sunsetShift 18s ease-in-out infinite;
 }
 
-.soap-bubbles {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.soap-bubbles span {
-  position: absolute;
-  bottom: -20px;
-  width: 12px;
-  height: 12px;
-  border-radius: 999px;
-  background: radial-gradient(circle at 30% 30%, rgba(255, 240, 248, 0.95), rgba(249, 168, 212, 0.25));
-  border: 1px solid rgba(249, 168, 212, 0.75);
-  box-shadow: 0 0 16px rgba(244, 114, 182, 0.4);
-  opacity: 0;
-  mix-blend-mode: screen;
-  animation: bubbleRise 12s linear infinite;
-  will-change: transform, opacity;
-}
-
-.soap-bubbles span:nth-child(1) { left: 8%; width: 8px; height: 8px; animation-delay: 0s; animation-duration: 10s; }
-.soap-bubbles span:nth-child(2) { left: 18%; width: 12px; height: 12px; animation-delay: 2s; animation-duration: 12s; }
-.soap-bubbles span:nth-child(3) { left: 30%; width: 9px; height: 9px; animation-delay: 4s; animation-duration: 9s; }
-.soap-bubbles span:nth-child(4) { left: 44%; width: 14px; height: 14px; animation-delay: 1s; animation-duration: 14s; }
-.soap-bubbles span:nth-child(5) { left: 56%; width: 10px; height: 10px; animation-delay: 3s; animation-duration: 11s; }
-.soap-bubbles span:nth-child(6) { left: 66%; width: 8px; height: 8px; animation-delay: 6s; animation-duration: 10s; }
-.soap-bubbles span:nth-child(7) { left: 76%; width: 12px; height: 12px; animation-delay: 5s; animation-duration: 13s; }
-.soap-bubbles span:nth-child(8) { left: 86%; width: 9px; height: 9px; animation-delay: 2.5s; animation-duration: 11s; }
-.soap-bubbles span:nth-child(9) { left: 94%; width: 7px; height: 7px; animation-delay: 7s; animation-duration: 9s; }
 
 .soap-nav {
   position: relative;
@@ -315,12 +283,6 @@ html.dark {
     opacity: 1;
     transform: translate(-50%, -50%);
   }
-}
-
-.dark .soap-bubbles span {
-  background: radial-gradient(circle at 30% 30%, rgba(248, 187, 208, 0.5), rgba(236, 72, 153, 0.2));
-  border: 1px solid rgba(236, 72, 153, 0.4);
-  box-shadow: 0 0 12px rgba(236, 72, 153, 0.25);
 }
 
 .sunset-page {
@@ -601,13 +563,7 @@ html.dark {
   .sunset-bar,
   .sunset-panel {
     animation: none;
-  }
-  .soap-bubbles span {
-    animation: none;
-    opacity: 0.45;
-    transform: translateY(-40%);
-  }
-  .bubble-card::before {
+  }  .bubble-card::before {
     animation: none;
   }
   .product-card {
