@@ -205,7 +205,7 @@ const copy = {
       },
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. All rights reserved.',
       languages: 'Languages',
     },
@@ -400,7 +400,7 @@ const copy = {
       },
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. جميع الحقوق محفوظة.',
       languages: 'اللغات',
     },
@@ -482,7 +482,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Tous droits réservés.',
       languages: 'Langues',
     },
@@ -564,7 +564,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Todos los derechos reservados.',
       languages: 'Idiomas',
     },
@@ -646,7 +646,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Alle Rechte vorbehalten.',
       languages: 'Sprachen',
     },
@@ -728,7 +728,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Tutti i diritti riservati.',
       languages: 'Lingue',
     },
@@ -810,7 +810,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Todos os direitos reservados.',
       languages: 'Idiomas',
     },
@@ -892,7 +892,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Tüm hakları saklıdır.',
       languages: 'Diller',
     },
@@ -974,7 +974,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. Все права защищены.',
       languages: 'Языки',
     },
@@ -1056,7 +1056,7 @@ const copy = {
       ],
     },
     footer: {
-      phone: '0919330802',
+      phone: '+218919330802',
       rights: '© 2026 Trend Of The World. 版权所有。',
       languages: '语言',
     },
