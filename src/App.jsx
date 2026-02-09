@@ -1220,7 +1220,7 @@ function App() {
               <Globe2 size={20} />
             </div>
             <div className={isRTL ? 'text-right' : 'text-left'}>
-              <p className="hidden text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-pink-600 sm:block">{t.tagline}</p>
+              <p className="hidden text-[11px] uppercase tracking-[0.45em] text-slate-500 dark:text-white sm:block">{t.tagline}</p>
               <h1 className="brand-title text-sm font-medium sm:text-lg">{t.brand}</h1>
             </div>
           </div>
@@ -1236,7 +1236,7 @@ function App() {
           <div className="flex items-center gap-3">
             <a
               href="#contact"
-              className="hidden rounded-full border border-amber-300/60 bg-pink-50/90 px-4 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 dark:border-amber-200/40 dark:bg-dark-card dark:text-pink-300 md:inline-flex"
+              className="hidden rounded-full border border-amber-300/60 bg-pink-50/90 px-4 py-2 text-xs font-semibold text-slate-700 shadow-sm transition hover:-translate-y-0.5 dark:border-amber-200/40 dark:bg-dark-card dark:text-white md:inline-flex"
             >
               {t.hero.cta}
             </a>
@@ -1424,7 +1424,7 @@ function App() {
       <section className="content-visibility longform-section py-24" id="story">
         <div className="mx-auto max-w-6xl px-6">
           <div className="grid gap-6 lg:grid-cols-2">
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <p className="text-[11px] uppercase tracking-[0.45em] text-pink-700 dark:text-pink-200">{longform.intro.title}</p>
               <h3 className="text-ink-wave mt-3 text-3xl font-medium md:text-4xl">{longform.intro.subtitle}</h3>
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.intro.body}</p>
@@ -1432,7 +1432,7 @@ function App() {
               <p className="mt-4 text-sm font-semibold text-pink-700 dark:text-pink-200">{longform.intro.coming}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.what.title}</h4>
               <div className="mt-4 space-y-2 text-base text-slate-900 dark:text-slate-200">
                 {longform.what.lead.map((line, index) => (
@@ -1442,20 +1442,20 @@ function App() {
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.what.body}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.choose.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.choose.subtitle}</p>
               {renderBullets(longform.choose.bullets)}
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.mood.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.mood.subtitle}</p>
               {renderBullets(longform.mood.bullets)}
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.mood.outro}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.scents.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.scents.lead}</p>
               <div className="mt-4 space-y-2 text-base text-slate-900 dark:text-slate-200">
@@ -1472,7 +1472,7 @@ function App() {
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.scents.closing}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.premium.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.premium.subtitle}</p>
               {renderBullets(longform.premium.bullets)}
@@ -1483,7 +1483,7 @@ function App() {
               </div>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.manufacturing.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.lead}</p>
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.body}</p>
@@ -1493,7 +1493,7 @@ function App() {
               <p className="mt-4 text-sm text-slate-900 dark:text-slate-200">{longform.manufacturing.aside}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.timeline.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.timeline.lead}</p>
               <ol className="mt-4 space-y-3">
@@ -1512,20 +1512,20 @@ function App() {
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.timeline.closing}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.shipping.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.shipping.lead}</p>
               {renderBullets(longform.shipping.bullets)}
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.why.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.why.lead}</p>
               {renderBullets(longform.why.bullets)}
               <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.why.closing}</p>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.notify.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.notify.lead}</p>
               {renderBullets(longform.notify.bullets)}
@@ -1537,7 +1537,7 @@ function App() {
               </a>
             </article>
 
-            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+            <article className={`royal-card longform-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
               <h4 className="text-ink-wave text-2xl font-medium">{longform.special.title}</h4>
               <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.special.subtitle}</p>
               {renderBullets(longform.special.bullets)}
