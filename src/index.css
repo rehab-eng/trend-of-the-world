@@ -435,6 +435,16 @@ html.dark {
   color: #ffffff;
 }
 
+.longform-section .royal-card p,
+.longform-section .royal-card li {
+  color: #fff1f7;
+}
+
+.dark .longform-section .royal-card p,
+.dark .longform-section .royal-card li {
+  color: #f8fafc;
+}
+
 .bubble-card {
   position: relative;
   overflow: hidden;

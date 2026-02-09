@@ -91,6 +91,119 @@ const copy = {
         },
       ],
     },
+    longform: {
+      intro: {
+        title: 'Trend Of The World',
+        subtitle: 'Pick Your Mood. Pick Your Soap.',
+        body: 'A premium collection of funny mood soaps designed for humans with feelings… and occasional bad decisions 😄',
+        highlights: ['✨ Luxury design', '😂 Funny mood messages', '🌸 A surprise scent in every bar'],
+        coming: '✅ Coming soon.',
+      },
+      what: {
+        title: 'What is this?',
+        lead: ['People don’t always need “another soap”.', 'People need a mood reset.'],
+        body: 'Trend Of The World is a limited soap collection where each bar represents a mood, with a bold message and a matching design that makes you smile instantly.',
+      },
+      choose: {
+        title: 'You don’t choose soap like a robot.',
+        subtitle: 'You choose it like a person:',
+        bullets: [
+          'When you want peace → Mentally Out Of Office',
+          'When you want self-care → Self-Love Mode On',
+          'When life hits hard → I’m Fine. It’s Fine.',
+          'When you need to restart your choices → Washing Away My Bad Decisions',
+        ],
+      },
+      mood: {
+        title: 'The Mood Soaps',
+        subtitle: 'Each bar is:',
+        bullets: [
+          '✅ Premium-looking',
+          '✅ Perfect as a gift',
+          '✅ Designed to be collectible',
+          '✅ Easy to use',
+          '✅ Made to make you laugh and feel good',
+        ],
+        outro: 'This is not “just soap”. This is a mood accessory 😌🧼',
+      },
+      scents: {
+        title: 'The Surprise Scents',
+        lead: 'Here’s the fun part 😄',
+        body: [
+          'Every soap comes with a surprise scent.',
+          'But not random chaos…',
+          'Each scent is carefully selected to match the mood of the bar you choose.',
+        ],
+        benefits: ['🌿 A scent that fits it', '🎭 A surprise twist', '✨ A different experience every time'],
+        examples: [
+          'Out Of Office → fresh tropical energy',
+          'Self-Love Mode → sweet soft luxury vibes',
+          'I’m Fine. It’s Fine. → bright, uplifting, “fake confidence” smell 😅',
+          'Bad Decisions → clean, fresh “new life” scent',
+        ],
+        closing: 'We’re selecting each fragrance carefully to make it funny, premium, and unforgettable.',
+      },
+      premium: {
+        title: 'Premium Look, Funny Soul',
+        subtitle: 'We mix:',
+        bullets: ['Luxury aesthetic', 'Bold typography', 'Mood icons', 'Clean colors', 'Gift-worthy presentation'],
+        outro: ['So it feels like:', '🎁 A premium product', '😂 A hilarious statement'],
+      },
+      manufacturing: {
+        title: 'Manufacturing',
+        lead: 'Yes, we’re doing this properly ✅',
+        body: 'To ensure consistent quality, professional finishing, and scalable production, manufacturing will take place in selected partner factories in China.',
+        whyTitle: 'Why China?',
+        whyLead: 'Because that’s where the best product manufacturing happens when you want:',
+        whyBullets: [
+          'High-quality finishing',
+          'Consistent color and design',
+          'Large-scale production',
+          'Premium packaging options',
+        ],
+        aside: '(And because humans love quality, even if they pretend they don’t.)',
+      },
+      timeline: {
+        title: 'Production Timeline',
+        lead: 'Production begins after the campaign ends.',
+        steps: [
+          'Final scent selection',
+          'Manufacturing process',
+          'Quality control',
+          'Packaging',
+          'Shipping',
+        ],
+        closing: 'We will share updates with supporters during every step.',
+      },
+      shipping: {
+        title: 'Shipping',
+        lead: 'We will ship internationally. All packages will be carefully packed to ensure safe delivery.',
+        bullets: ['✅ Tracking will be provided (where available).', '✅ Support team will assist with any issues.'],
+      },
+      why: {
+        title: 'Why Back This Project',
+        lead: 'Because you deserve a product that is:',
+        bullets: ['✅ Useful', '✅ Funny', '✅ Premium', '✅ Giftable', '✅ Mood-based', '✅ Something you’ve never seen before'],
+        closing: 'And honestly… because the world needs more laughing and less stress.',
+      },
+      notify: {
+        title: 'Get Notified',
+        lead: 'Be the first to know when we launch.',
+        bullets: ['✅ Early access', '✅ Special launch rewards', '✅ Limited edition sets'],
+        cta: 'Get notified',
+      },
+      special: {
+        title: 'Why it’s special?',
+        subtitle: 'Why you’ll love it',
+        bullets: [
+          '✅ Funny mood concept',
+          '✅ Premium gift look',
+          '✅ Handmade in small batches',
+          '✅ Perfect for social media',
+          '✅ Actually smells amazing (not just a joke)',
+        ],
+      },
+    },
     footer: {
       phone: '0919330802',
       rights: '© 2026 Trend Of The World. All rights reserved.',
@@ -172,6 +285,119 @@ const copy = {
           text: 'تجربة فتح فاخرة ومبهرة.',
         },
       ],
+    },
+    longform: {
+      intro: {
+        title: 'Trend Of The World',
+        subtitle: 'اختر مزاجك. اختر صابونك',
+        body: 'مجموعة صابون مزاج فاخرة ومرحة مخصصة للبشر أصحاب المشاعر… وأحيانًا القرارات الخاطئة 😄',
+        highlights: ['✨ تصميم فاخر', '😂 رسائل مزاجية مرحة', '🌸 رائحة مفاجئة في كل قطعة'],
+        coming: '✅ قريبًا.',
+      },
+      what: {
+        title: 'ما هذا؟',
+        lead: ['الناس لا يحتاجون دائمًا إلى “صابون آخر”.', 'الناس يحتاجون إلى إعادة ضبط المزاج.'],
+        body: 'Trend Of The World مجموعة صابون محدودة، كل قطعة تمثل حالة مزاجية مع رسالة جريئة وتصميم متناسق يجعلك تبتسم فورًا.',
+      },
+      choose: {
+        title: 'أنت لا تختار الصابون كآلة.',
+        subtitle: 'تختاره كإنسان:',
+        bullets: [
+          'عندما تريد الهدوء → Mentally Out Of Office',
+          'عندما تريد العناية بنفسك → Self-Love Mode On',
+          'عندما تقسو عليك الحياة → I’m Fine. It’s Fine.',
+          'عندما تحتاج لإعادة النظر في خياراتك → Washing Away My Bad Decisions',
+        ],
+      },
+      mood: {
+        title: 'صابون المزاج',
+        subtitle: 'كل قطعة:',
+        bullets: [
+          '✅ مظهر فاخر',
+          '✅ هدية مثالية',
+          '✅ مصممة لتكون قابلة للاقتناء',
+          '✅ سهلة الاستخدام',
+          '✅ مصنوعة لتجعلك تضحك وتشعر بالسعادة',
+        ],
+        outro: 'هذا ليس “مجرد صابون”. هذا إكسسوار مزاجي 😌🧼',
+      },
+      scents: {
+        title: 'الروائح المفاجئة',
+        lead: 'وهنا الجزء الممتع 😄',
+        body: [
+          'كل صابونة تأتي برائحة مفاجئة.',
+          'لكنها ليست فوضى عشوائية…',
+          'كل رائحة مختارة بعناية لتناسب مزاج القطعة التي تختارها.',
+        ],
+        benefits: ['🌿 رائحة تناسب المزاج', '🎭 لمسة مفاجئة', '✨ تجربة مختلفة في كل مرة'],
+        examples: [
+          'Out Of Office → طاقة استوائية منعشة',
+          'Self-Love Mode → أجواء فاخرة ناعمة',
+          'I’m Fine. It’s Fine. → رائحة مشرقة تعطي ثقة مؤقتة 😅',
+          'Bad Decisions → رائحة نظيفة ومنعشة لبداية جديدة',
+        ],
+        closing: 'نختار كل عطر بعناية ليكون ممتعًا، فاخرًا، ولا يُنسى.',
+      },
+      premium: {
+        title: 'مظهر فاخر، روح مرحة',
+        subtitle: 'نمزج بين:',
+        bullets: ['جمالية فاخرة', 'خطوط جريئة', 'رموز تعبيرية', 'ألوان نقية', 'تغليف أنيق يليق بالإهداء'],
+        outro: ['لذلك يبدو كأنه:', '🎁 منتج فاخر', '😂 عبارة طريفة'],
+      },
+      manufacturing: {
+        title: 'التصنيع',
+        lead: 'نعم، نقوم بذلك على أكمل وجه ✅',
+        body: 'لضمان جودة متسقة وتشطيب احترافي وإنتاج قابل للتوسع، سيتم التصنيع في مصانع شركاء مختارة في الصين.',
+        whyTitle: 'لماذا الصين؟',
+        whyLead: 'لأنها المكان الأفضل للتصنيع عندما تريد:',
+        whyBullets: [
+          'تشطيب عالي الجودة',
+          'لون وتصميم متسقين',
+          'إنتاج على نطاق واسع',
+          'خيارات تغليف فاخرة',
+        ],
+        aside: '(ولأن البشر يحبون الجودة، حتى لو تظاهروا بعكس ذلك).',
+      },
+      timeline: {
+        title: 'الجدول الزمني للإنتاج',
+        lead: 'يبدأ الإنتاج بعد انتهاء الحملة.',
+        steps: [
+          'اختيار الرائحة النهائية',
+          'عملية التصنيع',
+          'مراقبة الجودة',
+          'التغليف',
+          'الشحن',
+        ],
+        closing: 'سنشارك التحديثات مع الداعمين خلال كل خطوة.',
+      },
+      shipping: {
+        title: 'الشحن',
+        lead: 'سنشحن دوليًا. سيتم تغليف جميع الطرود بعناية لضمان وصولها بأمان.',
+        bullets: ['✅ سيتم توفير رقم تتبع (إن وجد).', '✅ سيقوم فريق الدعم بالمساعدة في أي مشكلة.'],
+      },
+      why: {
+        title: 'لماذا تدعم هذا المشروع؟',
+        lead: 'لأنك تستحق منتجًا:',
+        bullets: ['✅ مفيد', '✅ مضحك', '✅ فاخر', '✅ قابل للهدايا', '✅ قائم على الحالة المزاجية', '✅ شيء لم تره من قبل'],
+        closing: 'وبصراحة… لأن العالم يحتاج إلى مزيد من الضحك وضغط أقل.',
+      },
+      notify: {
+        title: 'احصل على إشعار',
+        lead: 'كن أول من يعرف موعد إطلاقنا.',
+        bullets: ['✅ وصول مبكر', '✅ مكافآت إطلاق خاصة', '✅ مجموعات ذات إصدار محدود'],
+        cta: 'تواصل معنا',
+      },
+      special: {
+        title: 'لماذا هي مميزة؟',
+        subtitle: 'لماذا ستحبها',
+        bullets: [
+          '✅ مفهوم مزاجي مضحك',
+          '✅ مظهر هدايا مميز',
+          '✅ صناعة يدوية بكميات صغيرة',
+          '✅ مثالية لوسائل التواصل الاجتماعي',
+          '✅ رائحتها مذهلة فعلًا (ليست مجرد مزحة)',
+        ],
+      },
     },
     footer: {
       phone: '0919330802',
@@ -940,6 +1166,7 @@ function App() {
   }, [langOpen]);
 
   const t = copy[lang];
+  const longform = t.longform || copy.en.longform;
   const isRTL = lang === 'ar';
   const isDark = theme === 'dark';
   const currentLanguage = LANGUAGE_OPTIONS.find((item) => item.code === lang) || LANGUAGE_OPTIONS[0];
@@ -968,6 +1195,20 @@ function App() {
   const featurePrimary = features[0];
   const featureSecondary = features[1];
   const featureTertiary = features[2];
+
+  const renderBullets = (items, tone = 'text-slate-900 dark:text-slate-200') => (
+    <ul className="mt-4 space-y-3">
+      {items.map((item, index) => (
+        <li
+          key={`${item}-${index}`}
+          className={`flex items-start gap-3 text-sm ${tone} ${isRTL ? 'flex-row-reverse text-right' : 'text-left'}`}
+        >
+          <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-amber-400/90" />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
 
 
   return (
@@ -1176,6 +1417,131 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="content-visibility longform-section py-24" id="story">
+        <div className="mx-auto max-w-6xl px-6">
+          <div className="grid gap-6 lg:grid-cols-2">
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <p className="text-[11px] uppercase tracking-[0.45em] text-pink-700 dark:text-pink-200">{longform.intro.title}</p>
+              <h3 className="text-ink-wave mt-3 text-3xl font-medium md:text-4xl">{longform.intro.subtitle}</h3>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.intro.body}</p>
+              {renderBullets(longform.intro.highlights)}
+              <p className="mt-4 text-sm font-semibold text-pink-700 dark:text-pink-200">{longform.intro.coming}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.what.title}</h4>
+              <div className="mt-4 space-y-2 text-base text-slate-900 dark:text-slate-200">
+                {longform.what.lead.map((line, index) => (
+                  <p key={`${line}-${index}`}>{line}</p>
+                ))}
+              </div>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.what.body}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.choose.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.choose.subtitle}</p>
+              {renderBullets(longform.choose.bullets)}
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.mood.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.mood.subtitle}</p>
+              {renderBullets(longform.mood.bullets)}
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.mood.outro}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.scents.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.scents.lead}</p>
+              <div className="mt-4 space-y-2 text-base text-slate-900 dark:text-slate-200">
+                {longform.scents.body.map((line, index) => (
+                  <p key={`${line}-${index}`}>{line}</p>
+                ))}
+              </div>
+              {renderBullets(longform.scents.benefits)}
+              <div className="mt-5 space-y-2 text-sm text-slate-900 dark:text-slate-200">
+                {longform.scents.examples.map((example, index) => (
+                  <p key={`${example}-${index}`}>{example}</p>
+                ))}
+              </div>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.scents.closing}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.premium.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.premium.subtitle}</p>
+              {renderBullets(longform.premium.bullets)}
+              <div className="mt-4 space-y-2 text-base text-slate-900 dark:text-slate-200">
+                {longform.premium.outro.map((line, index) => (
+                  <p key={`${line}-${index}`}>{line}</p>
+                ))}
+              </div>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.manufacturing.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.lead}</p>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.body}</p>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.whyTitle}</p>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.manufacturing.whyLead}</p>
+              {renderBullets(longform.manufacturing.whyBullets)}
+              <p className="mt-4 text-sm text-slate-900 dark:text-slate-200">{longform.manufacturing.aside}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.timeline.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.timeline.lead}</p>
+              <ol className="mt-4 space-y-3">
+                {longform.timeline.steps.map((step, index) => (
+                  <li
+                    key={`${step}-${index}`}
+                    className={`flex items-center gap-3 text-sm text-slate-900 dark:text-slate-200 ${isRTL ? 'flex-row-reverse text-right' : 'text-left'}`}
+                  >
+                    <span className="flex h-7 w-7 items-center justify-center rounded-full border border-amber-400 text-xs font-semibold text-amber-200">
+                      {index + 1}
+                    </span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.timeline.closing}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.shipping.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.shipping.lead}</p>
+              {renderBullets(longform.shipping.bullets)}
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.why.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.why.lead}</p>
+              {renderBullets(longform.why.bullets)}
+              <p className="mt-4 text-base text-slate-900 dark:text-slate-200">{longform.why.closing}</p>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.notify.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.notify.lead}</p>
+              {renderBullets(longform.notify.bullets)}
+              <a
+                href="#contact"
+                className="mt-5 inline-flex items-center gap-2 rounded-full border border-amber-400/80 bg-slate-900 px-6 py-2 text-xs font-semibold text-white transition hover:-translate-y-0.5 dark:bg-pink-200 dark:text-black"
+              >
+                {longform.notify.cta}
+              </a>
+            </article>
+
+            <article className={`royal-card rounded-3xl p-8 shadow-soft backdrop-blur-xl ${isRTL ? 'text-right' : 'text-left'}`}>
+              <h4 className="text-ink-wave text-2xl font-medium">{longform.special.title}</h4>
+              <p className="mt-2 text-base text-slate-900 dark:text-slate-200">{longform.special.subtitle}</p>
+              {renderBullets(longform.special.bullets)}
+            </article>
           </div>
         </div>
       </section>
