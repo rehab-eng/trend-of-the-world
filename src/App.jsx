@@ -1212,7 +1212,7 @@ function App() {
 
 
   return (
-    <div className="sunset-page flow-text min-h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
+    <div className={`sunset-page flow-text min-h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text ${isRTL ? 'rtl' : ''}`}>
       <header className="sunset-bar relative sticky top-0 z-40 overflow-hidden border-b border-amber-300/40 bg-pink-50/90 backdrop-blur-xl dark:border-amber-200/40 dark:bg-black/55">
         <div className={`relative z-10 mx-auto flex max-w-6xl items-center px-4 py-3 sm:px-6 sm:py-4 ${isRTL ? 'justify-end gap-4 md:justify-between md:flex-row-reverse' : 'justify-between'}`}>
           <div className={`flex items-center gap-3 sm:gap-4 ${isRTL ? 'flex-row-reverse' : ''}`}>
